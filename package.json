@@ -1,0 +1,28 @@
+{
+  "name": "aurion-ai-website",
+  "version": "1.0.0",
+  "description": "Aurion AI - Production-ready website for AI automation services",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8080 -o",
+    "dev": "npx http-server -p 8080 -o",
+    "deploy:netlify": "netlify deploy --prod",
+    "deploy:vercel": "vercel --prod"
+  },
+  "keywords": [
+    "ai",
+    "automation",
+    "website",
+    "chatbots",
+    "business-automation"
+  ],
+  "author": "Aurion AI",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/aurion-ai-website"
+  }
+}
